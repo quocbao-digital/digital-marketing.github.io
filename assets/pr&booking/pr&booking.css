@@ -1,0 +1,258 @@
+.banner .side-items_left .title-items h3 {
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    padding-bottom: 25px;
+}
+
+.banner .side-items_left .title-items span {
+    color: var(--purple);
+}
+
+.banner .side-items_left .title-items p {
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #5B5E71;
+    padding-bottom: 25px;
+}
+
+.resources {
+    padding-top: 150px;
+}
+
+.example-resources-side  h3{
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    color: var(--black);
+    text-align: center;
+}
+
+.example-resources-items {
+    padding-top: 59px;
+}
+
+.items_resources .content-resources-top {
+    padding-bottom: 62px;
+}
+
+.items_resources .content-resources-top,
+.items_resources .content-resources-bottom {
+    display: flex;
+}
+
+.items-brand {
+    display: flex;
+    /* width: 33%; */
+} 
+
+.items-brand  .image-brand {
+    margin-right: 20px;
+}
+
+
+.detail-brand h4
+{
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.detail-brand p
+{
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #5B5E71;
+}
+
+.detail-brand .down {
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--purple);
+    background: #F0ECFB;
+    border-radius: 18px;
+    padding-left    : 12px;
+    width: 87px;
+}
+
+
+.other-services {
+    padding-top: 72px ;
+}
+.content-services_TVC {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.funtions_services-content {
+    padding-top: 30px ;
+}
+
+.content-services_left, 
+.content-services_right { 
+    background: var(--white);
+    box-shadow: 0px 4px 48px rgba(27, 37, 69, 0.09);
+    border-radius: 16px;
+    padding: 20px;
+    text-align: left;
+    margin: 20px;
+    width: 365px;
+}
+
+.line-services {
+    border: 1px solid #E3E7EC;
+}
+
+.content-services_left .line-services {
+    margin-top: 65px;
+}
+
+.price-services_site  {
+    text-align: center;
+    padding:25px 0 25px 0 ;
+}
+
+.price-services_site span
+{
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    color: #151A35;
+}
+
+.accept-now {
+    background: var(--purple);
+    border-radius: 4px;
+    width: 100%;
+    height: 56px;
+    padding: 16px 105px;
+    text-align: center;
+}
+
+.accept-now span {
+    font-family: 'SF UI Text', sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--white);
+}
+
+.all-services {
+    padding-top: 114px;
+}
+
+.title_all-services {
+    text-align: center;
+}
+
+.title_all-services h3 {
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #151A35;
+}
+
+.title_all-services p
+{
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #5B5E71;
+    margin: unset;
+}
+
+.items_all-services
+{
+    padding-top: 80px;
+}
+
+.all-services .example_all-services {
+    display: flex;    
+}
+
+/* .example_all-services .col-4 
+{
+    width: 365px;
+    height: 250px;
+    background: var(--white);
+    box-shadow: 0px 4px 48px rgba(27, 37, 69, 0.09);
+    border-radius: 20px;
+    padding: 30px 17px 30px 30px;
+    margin: 21px;
+} */
+
+.example_all-services .col-4 p  {
+    width: 90%;;
+}
+
+.resources .content-resources-top {
+    display: grid;
+    grid-template-columns: repeat(3, calc(100%/3));
+    grid-gap: 25px;
+    width: calc(100% - 100px);
+}
+
+.example_all-services .card {
+    padding: 30px 17px 30px 30px;
+    margin-top: 21px;
+    background: var(--white);
+    box-shadow: 0px 4px 48px rgba(27, 37, 69, 0.09);
+    border-radius: 20px;
+}
+
+.example_all-services .card a {
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #653FD5;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 600px !important;
+        width: 100% !important;
+        margin: auto !important;
+    }
+    
+    .resources .content-resources-top {
+        display: grid;
+        grid-template-columns: repeat(2, calc(100%/2));
+        grid-gap: 25px;
+        width: calc(100% - 25px);
+    }
+
+    .other-services .content-services_TVC {
+        align-items: center;
+    }
+}
+

@@ -1,0 +1,163 @@
+.contact-us_form {
+    padding-top: 75px;
+}
+
+.contact-us_form .title-contact-us {
+    text-align: center;
+}
+
+.contact-us_form .contact_form {
+    display: flex;
+}
+
+.contact-us_form  .contact_site,
+.contact-us_form  .contact_infor{
+    width: 50%;
+}   
+
+.contact-us_form .items_infor-contact {
+    display: flex;
+}
+
+.contact-us_form .items_infor-contact img
+{
+    width: 64px;
+    height: 64px;
+}
+
+.form_information .items_form-infor
+ {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.form_information .items_form-infor .items-flex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form_information .items_form-infor label,
+.form_information .items_form-infor .items-flex label {
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+
+
+.form_information .items_form-infor input ,
+.form_information .items_form-infor .items-flex input
+
+{
+    border: 1px solid #E3E7EC;
+    border-radius: 6px;
+    height: 50px;
+    padding: 13px;
+}
+
+.flex-form {
+    display: flex !important;
+    flex-direction: unset !important;
+}
+
+input[name="email"] {
+    margin-right: 30px;
+    
+}
+
+.contact-us_form .contact_infor {
+    margin: auto;
+    margin-left: 117px;
+}
+
+.contact-us_form .site {
+    padding-bottom: 60px;
+}   
+
+.contact-us_form .text_infor {
+    padding-left: 15px;
+}
+
+.contact-us_form .text_infor p
+{
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #151A35;
+}
+
+.contact-us_form .text_infor p a
+{
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #653FD5;
+    text-decoration: none;
+}
+
+.form-contact-us {
+    padding-top: 70px;
+}
+
+.button_contact span {
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.map {
+    padding-top:60px ;
+}
+
+.map iframe
+{
+    width: 100%;
+    height: 375px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:992px){
+    .flex-form {
+        flex-direction: column !important;
+    }
+
+    input[name="email"] {
+        margin-right: 0;
+    }
+
+    .contact-us_form .contact_infor {
+        margin-left: 70px;
+    }
+
+    
+    .form_information .items_form-infor .items-flex:nth-child(2){
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .contact-us_form .contact_form {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-us_form  .contact_site,
+    .contact-us_form  .contact_infor{
+    width: 100%;
+    }   
+
+    .contact-us_form  .contact_infor {
+        padding-top: 50px;
+        margin:auto;
+    }
+}

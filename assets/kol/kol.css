@@ -1,0 +1,398 @@
+.banner {
+    padding-top: 30px;
+}
+
+.example-banner_side {
+    display: flex;
+}
+
+.side-items_left{
+    margin: auto;
+}
+
+.title-items .content-sentence
+{
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 150%;
+    color: #151A35;
+    width: 95%;
+}
+
+.title-items .content-sentence span {
+    color: var(--purple) !important;
+}
+
+.button-price {
+    display: flex;
+    margin-top: 75px;
+}
+
+.button-price .button_items {
+    background: #653FD5;
+    width: 173px;
+    height: 48px;
+    box-shadow: 0px 4px 18px rgba(101, 63, 213, 0.4);
+    border-radius: 4px;
+    padding: 12px 32px;
+    color: white;
+    margin-top: 0;
+    text-align: center;
+}
+
+
+.button-price .price-list
+{
+    background: var(--white);
+    border: 1px solid #F3F3F5;
+    border-radius: 4px;
+    width: 173px;
+    height: 48px;
+    padding: 12px 32px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.example-banner_side-2 {
+    display: flex;
+}
+
+.side-items_left,
+.side-items-right {
+    width: 50%;
+}
+
+.image_banner-2 {
+    margin: auto;
+}
+
+.side-items_left {
+    display: flex;
+}
+
+.side-items-right {
+    margin: auto;
+}
+
+.side-items-right .content-sentence-2 {
+    width: 63%;
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #5B5E71;
+}
+
+.side-items-right .title_banner-2
+{
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    color: #151A35;
+}
+
+.button-advise {
+    width: 173px;
+    height: 48px;
+    background: #653FD5;
+    border-radius: 6px;
+    padding: 12px 38px;
+    text-align: center;
+}
+
+.button-advise span {
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--white);
+}
+
+.banner_2 {
+    padding-top: 50px;
+}
+
+.banner_2 .example-banner_side-2 .side-items_left {
+    text-align: center;
+}
+
+.banner_3 {
+    padding-top: 100px;
+}
+
+
+.banner_3 .example-banner_side-3 {
+    display: flex;
+}
+
+.banner_3 .example-banner_side-3 .side-items_left {
+    display: block;
+    margin: unset;
+}
+
+.banner_3 .example-banner_side-3  .title_items-3
+{
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    color: var(--black);
+}
+
+.banner_3 .example-banner_side-3  .content-sentence-3
+{
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #5B5E71;
+}
+
+.banner_3 .example-banner_side-3  .button-advise {
+    padding:12px 15px;
+}
+
+.banner_3 .example-banner_side-3 .side-items_right   {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.Kol-representative {
+    padding-top:  92px;
+}
+
+.title-representative h3
+{
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: var(--black);
+    text-align: center;
+}
+
+.image-representative .kol_items-content {
+    display: flex;
+    justify-content: center;
+}
+
+.image-representative .kol_items-content .items-kol
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 55px;
+}
+
+.image-representative .kol_items-content .items-kol span {
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.price-services_kol {
+    padding-top: 117px;
+}
+.price-services_kol .price-services_form {
+    display: flex;
+}
+
+
+
+.price-services_form .title_price-form h3
+{
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.price-services_form .title_price-form  p {
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #5B5E71;
+}
+
+.form_price-left, 
+.form_price-right {
+    width: 50%;
+}
+
+.form_information .items_form-infor
+ {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.form_information .items_form-infor .items-flex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form_information .items_form-infor label,
+.form_information .items_form-infor .items-flex label {
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+
+
+.form_information .items_form-infor input ,
+.form_information .items_form-infor .items-flex input
+
+{
+    border: 1px solid #E3E7EC;
+    border-radius: 6px;
+    height: 50px;
+    padding: 13px;
+}
+
+.flex-form {
+    display: flex !important;
+    flex-direction: unset !important;
+}
+
+input[name="email"] {
+    margin-right: 30px;
+}
+
+.price-services_kol .title_price-form p {
+    width: 60%;
+}
+
+.banner .container .example-banner_side .price-list p{
+    color: var(--black) !important;
+}
+
+@media screen and (min-width: 1440px) {
+    .banner .container .example-banner_side .side-items_right {
+        width: unset;
+    }
+}
+
+@media screen and (max-width:1240px){
+    .container {
+        max-width: 768px;
+        width: 100%;
+        margin: auto !important;
+    }
+
+    .banner .container .example-banner_side {
+        display: flex !important;
+        flex-direction:column-reverse  !important;
+    }
+
+    .banner .container .example-banner_side .side-items_left {
+        width:unset !important;
+        margin-top: 50px;
+    }
+
+    .banner .container .example-banner_side .title-items {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner .container .example-banner_side  .button-price {
+        display: flex;
+        justify-content:  center;
+        margin-top: 20px !important;    
+    }
+    .banner .container .example-banner_side .title-items .content-sentence {
+        width: unset !important;;
+    }
+
+    .banner .container .example-banner_side .side-items_right {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .container {
+        max-width: 600px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .banner_2 .example-banner_side-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .side-items_left, 
+    .side-items-right {
+        width: 100%;
+    }
+
+    .side-items-right .content-sentence-2 {
+        width: unset;
+    }
+
+    .banner_2  .side-items-right .title_items-2 {
+        text-align: center;
+    }
+
+    .banner_3 .example-banner_side-3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner_3 .example-banner_side-3 .side-items_left {
+        text-align: center;
+    }
+
+    .banner_3 .example-banner_side-3 .side-items_right {
+        margin-top: 20px;
+    }
+
+    .form_price-left, .form_price-right {
+        width: 100%;
+    }
+
+    .price-services_kol .price-services_form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .price-services_kol .price-services_form .title_price-form {
+        text-align: center;
+    }
+
+    .price-services_kol .price-services_form .title_price-form p {
+        width: unset;   
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .banner .side-items_right .img-items img{
+        height: 300px;
+        width: 100%;
+    }
+}
+
+
+
